@@ -1,5 +1,5 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
-# //Project Pending - I am still updating all of the projects for the RPA Developer Foundation.  In doing so I am updating the existing C# Windows Legacy project while also rewriting them in both C# Windows and VB Windows.  I complete at least one project a day.
+
 # S06P03 Highlight WFT Type Items
 
 This project is my solution in **C#** to the **Highlight WFT Type Items** practice found in section 06 practice 03 of the UiPath - RPA Developer Foundation course.
@@ -35,7 +35,29 @@ Notes:
 ### Sample Output
 
 ```
-
+05/09/2024 15:53:02 => [Debug] Debug started for file: Main
+05/09/2024 15:53:02 => [Info] RPADev-S06P03-Highlight-TypeItems execution started
+05/09/2024 15:53:02 => [Info] RPADev-S06P03-Highlight-TypeItems.Main.Begin;
+05/09/2024 15:53:04 => [Warning] RPADev-S06P03-Highlight-TypeItems.Main.EmptyInput; The input value was empty.  Setting the input to 'WI1.'
+05/09/2024 15:53:05 => [Debug] Audit: Using Web App. Browser: Chrome URL: https://acme-test.uipath.com/login
+05/09/2024 15:53:20 => [Info] RPADev-S06P03-Highlight-TypeItems.Main.Attributes;
+AaName: WI1
+Inner Text: WI1
+Table Column: 4
+Table Row: 5
+05/09/2024 15:53:22 => [Info] RPADev-S06P03-Highlight-TypeItems.Main.Attributes;
+AaName: WI1
+Inner Text: WI1
+Table Column: 4
+Table Row: 6
+05/09/2024 15:53:23 => [Info] RPADev-S06P03-Highlight-TypeItems.Main.Attributes;
+AaName: WI1
+Inner Text: WI1
+Table Column: 4
+Table Row: 8
+05/09/2024 15:53:25 => [Info] RPADev-S06P03-Highlight-TypeItems.Main.OperationCompleted; WI Selection: WI1
+05/09/2024 15:53:25 => [Info] RPADev-S06P03-Highlight-TypeItems.Main.End;
+05/09/2024 15:53:25 => [Info] RPADev-S06P03-Highlight-TypeItems execution ended in: 00:00:23
 ```
 
 ### Architecture Requirements
